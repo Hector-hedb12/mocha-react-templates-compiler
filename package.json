@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/talpor/mocha-react-templates-compiler#readme",
   "dependencies": {
-    "react-templates": "^0.1.21"
+    "react-templates": "0.4.1"
   }
 }
