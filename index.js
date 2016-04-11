@@ -10,7 +10,7 @@ var loader = function(ext, module, filename) {
       return orig(module, filename);
     }
     var content = fs.readFileSync(filename, 'utf-8');
-    var template = reactTemplates.convertTemplateToReact(content, {modules: 'commonjs'});
+    var template = reactTemplates.convertTemplateToReact(content, {modules: 'es6'});
 
     module._compile(template, filename);
 };
